@@ -1,8 +1,4 @@
-
-
-# from ..serviceable import Serviceable
 from serviceable import *
-
 
 class Car(Serviceable):
     def __init__(self, engine, battery):

@@ -1,9 +1,9 @@
-from ..car import Car
-from battery.battery_types.nubbin import NubbinBattery
-from battery.battery_types.spindler import SpindlerBattery
-from engine.engine_types.capulet_engine import CapuletEngine
-from engine.engine_types.sternman_engine import SternmanEngine
-from engine.engine_types.willoughby_engine import WilloughbyEngine
+from car import Car
+from battery.nubbin import NubbinBattery
+from battery.spindler import SpindlerBattery
+from engine.capulet_engine import CapuletEngine
+from engine.sternman_engine import SternmanEngine
+from engine.willoughby_engine import WilloughbyEngine
 
 
 class CarFactory:
